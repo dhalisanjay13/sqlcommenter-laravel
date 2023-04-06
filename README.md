@@ -17,14 +17,14 @@ Add this to your `composer.json`
 ```
 Install the package
 ```shell
-composer require "google/sqlcommenter-laravel"
+composer require "googletest/sqlcommenter-laravel"
 ```
 ### Usage
 
 Publish the config file from library to into laravel app using below command
 
 ```shell
-php artisan vendor:publish --provider="Google\GoogleSqlCommenterLaravel\GoogleSqlCommenterServiceProvider"
+php artisan vendor:publish --provider="GoogleTest\GoogleSqlCommenterLaravel\GoogleSqlCommenterServiceProvider"
 
 ```
 
@@ -33,7 +33,7 @@ Add the following class above `Illuminate\Database\DatabaseServiceProvider::clas
 ```php
 'providers' => [
     ...
-    Google\GoogleSqlCommenterLaravel\Database\DatabaseServiceProvider::class,
+    GoogleTest\GoogleSqlCommenterLaravel\Database\DatabaseServiceProvider::class,
     Illuminate\Database\DatabaseServiceProvider::class,
     ...
 ]

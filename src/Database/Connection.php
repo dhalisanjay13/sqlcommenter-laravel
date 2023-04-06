@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Google\GoogleSqlCommenterLaravel\Database;
+namespace GoogleTest\GoogleSqlCommenterLaravel\Database;
 
 use Illuminate\Database\Connection as BaseConnection;
 use OpenTelemetry\API\Trace\Propagation\TraceContextPropagator;

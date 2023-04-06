@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Google\GoogleSqlCommenterLaravel;
+namespace GoogleTest\GoogleSqlCommenterLaravel;
 
 class Utils
 {

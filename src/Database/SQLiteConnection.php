@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Google\GoogleSqlCommenterLaravel\Database;
+namespace GoogleTest\GoogleSqlCommenterLaravel\Database;
 
 use Illuminate\Database\PDO\SQLiteDriver;
 use Illuminate\Database\Query\Grammars\SQLiteGrammar as QueryGrammar;

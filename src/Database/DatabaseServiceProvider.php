@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-namespace Google\GoogleSqlCommenterLaravel\Database;
+namespace GoogleTest\GoogleSqlCommenterLaravel\Database;
 
 use Illuminate\Support\ServiceProvider;
 
